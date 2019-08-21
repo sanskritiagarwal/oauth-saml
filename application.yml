@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: 722654457857-5fruf950ntfpcnumuldc83sj3rfk4jq9.apps.googleusercontent.com
+      clientSecret: 8G5Z1-YdcuETnZpInuyrzDrS
+      accessTokenUri: https://oauth2.googleapis.com/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+      redirectUri: https://accounts.google.com/o/oauth2/auth
+      scope: openid profile email
+      response_type: code
+    resource:
+      userInfoUri: https://www.googleapis.com/auth/userinfo.profile
